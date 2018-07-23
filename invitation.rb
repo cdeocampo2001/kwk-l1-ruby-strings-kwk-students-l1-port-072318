@@ -7,11 +7,12 @@ date = gets.strip
 time = gets.strip
 host_name = gets.strip
 rsvp_time = gets.strip
+event = gets.strip
 
 puts "Dear #{guest_name},
 
-You are cordially invited to the Best Halloween Party Ever on #{date} at #{time}. Please RSVP no later than #{rsvp time}. 
+You are cordially invited to #{event} on #{date} at #{time}. Please RSVP no later than #{rsvp time}. 
 
 Sincerely, 
 
-#{host_name}''
+#{host_name}"

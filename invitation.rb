@@ -13,7 +13,6 @@ puts "When rsvp deadline?"
 rsvp_time = gets.strip
 puts "What is the party for"
 event = gets.strip
-
 puts "Dear #{guest_name},
 
 You are cordially invited to #{event} on #{date} at #{time}. Please RSVP no later than #{rsvp time}. 
